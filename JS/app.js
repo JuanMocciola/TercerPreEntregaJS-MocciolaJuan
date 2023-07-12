@@ -17,3 +17,22 @@ const cascos = [
     new Casco(7, "../assets/images/casco7.png", "V3 RS Eyeris Helmet", 480),
     new Casco(8, "../assets/images/casco8.png", "V3 RS Slait Helmet", 599),
 ];
+
+const productContainer = document.querySelector(".helmets-container");
+
+let carrito = [];
+
+cascos.forEach(casco => {
+    const productoSection = document.createElement("section");
+
+    productoSection.innerHTML = `
+    <div class="cards">
+    <img src="${casco.imagen}"alt="${casco.nombre}">
+    <h3>${casco.nombre}</h3>
+    <p>$${casco.precio}</p>
+    <button class="agregar-carrito">Agregar</button>
+    </div>
+    `;
+
+    productContainer.appendChild(productoSection);
+});
