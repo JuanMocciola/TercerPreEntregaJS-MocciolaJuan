@@ -23,7 +23,7 @@ const productContainer = document.querySelector(".helmets-container");
 let carrito = [];
 
 cascos.forEach(casco => {
-    const productoSection = document.createElement("section");
+    const productoSection = document.createElement("div");
 
     productoSection.innerHTML = `
     <div class="cards">
