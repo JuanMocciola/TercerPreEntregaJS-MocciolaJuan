@@ -9,6 +9,11 @@ font-family: 'Kanit', sans-serif;*/
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -40,13 +45,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 1rem;
-    box-shadow:0px 1px 9px rgba(0, 0, 0, 0.12);
+    font-size: .9rem;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.12);
 }
 
-.nav-bar a{
+.nav-bar a {
     text-decoration: none;
     color: #2b2b2a;
 }
@@ -106,37 +111,37 @@ header {
     line-height: 40px;
 }
 
-.texto-hero1 h2{
+.texto-hero1 h2 {
     font-size: 2rem;
 }
 
-.texto-hero1 p{
+.texto-hero1 p {
     font-size: .8rem;
     font-weight: 500;
 }
 
-.hero1-btn a{
+.hero1-btn a {
     font-size: .8rem;
     text-decoration: none;
     background-color: black;
     color: white;
     padding: 10px;
     border-radius: 50px;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
-.hero1-btn a:hover{
+.hero1-btn a:hover {
     transition: all .5s;
     background-color: #f8f8f8;
     color: black;
 }
 
-.ver-cascos{
+.ver-cascos {
     background-image: url(../images/fondo-cascos.jpg);
     background-position: center;
     background-size: cover;
     height: 400px;
-    width:80% ;
+    width: 80%;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -146,13 +151,13 @@ header {
     line-height: 100px;
 }
 
-.ver-cascos h3{
+.ver-cascos h3 {
     font-size: 2.3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.ver-cascos button{
+.ver-cascos button {
     font-size: .8rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -161,20 +166,20 @@ header {
     border: none;
 }
 
-.ver-cascos button a{
+.ver-cascos button a {
     text-decoration: none;
     color: #f8f8f8;
 }
 
-.ver-cascos button:hover{
+.ver-cascos button:hover {
     background-color: #f8f8f8;
 }
 
-.ver-cascos button:hover a{
+.ver-cascos button:hover a {
     color: #2b2b2a;
 }
 
-.helmets-container{
+.helmets-container {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -184,7 +189,7 @@ header {
     gap: 30px;
 }
 
-.cards{
+.cards {
     width: 320px;
     height: 400px;
     text-align: start;
@@ -198,27 +203,27 @@ header {
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.32);
 }
 
-.cards img{
+.cards img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.cards h3{
+.cards h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: .9rem;
     font-weight: 500;
     margin: 10px 0;
 }
 
-.cards p{
+.cards p {
     font-family: 'Montserrat', sans-serif;
     color: #2b2b2a;
     font-size: .7rem;
     font-weight: 800;
 }
 
-.cards button{
+.cards button {
     font-family: 'Montserrat', sans-serif;
     border: none;
     font-size: .8rem;
@@ -226,8 +231,7 @@ header {
     cursor: pointer;
 }
 
-.cards button:hover{
+.cards button:hover {
     background-color: #2b2b2a;
     color: white;
 }
-
